@@ -1,0 +1,41 @@
+{
+  "name": "@matter-in-motion/transports.http",
+  "version": "1.0.0",
+  "description": "Matter in Motion Extension. HTTP Transport",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matter-in-motion/transports.http.git"
+  },
+  "keywords": [
+    "matter-in-motion",
+    "mmextension",
+    "transport",
+    "http",
+    "https",
+    "extension",
+    "network"
+  ],
+  "author": "Alexey Novikov <v@2dubs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matter-in-motion/transports.http/issues"
+  },
+  "homepage": "https://github.com/matter-in-motion/transports.http#readme",
+  "devDependencies": {
+    "@matter-in-motion/app": "^1.0.0",
+    "@matter-in-motion/loggers.pino": "^1.0.0",
+    "@matter-in-motion/transport": "^1.0.0",
+    "ava": "^2.4.0",
+    "got": "^9.6.0",
+    "nyc": "^14.1.1"
+  },
+  "dependencies": {
+    "cookie": "^0.4.0",
+    "flatstr": "^1.0.12",
+    "send": "^0.17.1"
+  }
+}
