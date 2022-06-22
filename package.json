@@ -30,7 +30,7 @@
     "@matter-in-motion/loggers.pino": "^1.0.0",
     "@matter-in-motion/transport": "^1.0.0",
     "ava": "^2.4.0",
-    "got": "^9.6.0",
+    "got": "^11.8.5",
     "nyc": "^14.1.1"
   },
   "dependencies": {
